@@ -5,6 +5,7 @@ Pipeline {
         steps {
             sh 'npm run install'
             sh 'npm run build'
+            }
         }
     }
 }
